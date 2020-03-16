@@ -1,0 +1,44 @@
+.grid {
+  background-color: green;
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-columns: 200px 200px auto; }
+
+.grid-item {
+  background-color: grey;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center; }
+
+h1 {
+  color: red; }
+
+#Ross {
+  color: blue; }
+
+.spec {
+  color: grey; }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue; } }
+.success, .warning, .error {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px; }
+
+.success {
+  background-color: green; }
+
+.warning {
+  background-color: orange; }
+
+.error {
+  background-color: red; }
+
+/*# sourceMappingURL=Friends.css.map */
